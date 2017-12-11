@@ -36,7 +36,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -48,7 +48,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#jumbotron">
           <img src="images/top_logo.png" alt="One Million Lines" title="One Million Lines">
         </a>
       </div>
@@ -67,7 +67,7 @@
   </nav>
 
   <!-- Main jumbotron for a primary marketing message or call to action -->
-  <div class="jumbotron">
+  <div id="jumbotron" class="jumbotron">
     <div class="container">
       <h1>Our goal is to inspire
         <br>Tallahassee to write 1,000,000
@@ -164,6 +164,7 @@
   <script src="js/bootstrap.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="js/smoothscroll.js"></script>
 </body>
 
 </html>
